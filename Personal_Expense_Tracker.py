@@ -77,5 +77,48 @@ def expense_tracker():
 if __name__ == "__main__":
     expense_tracker()
 
+Output:
+Welcome to the Personal Expense Tracker!
+
+ Options:
+1. Add Expense
+2. View Expense Summary
+3. Exit
+Enter your choice (1-3) :1
+Enter the description: Stationary 
+Enter the category (e.g,food, travel, shopping) :Books,Pens
+Enter the amount : $120
+Expense added successfully!
+
+ Options:
+1. Add Expense
+2. View Expense Summary
+3. Exit
+Enter your choice (1-3) :1
+Enter the description: lunch 
+Enter the category (e.g,food, travel, shopping) :food
+Enter the amount : $239
+Expense added successfully!
+
+ Options:
+1. Add Expense
+2. View Expense Summary
+3. Exit
+Enter your choice (1-3) :2
+
+ Expense Summary by category:
+Books,Pens: $120.00
+food: $239.00
+
+ Total Spent: $359.00
+
+ Options:
+1. Add Expense
+2. View Expense Summary
+3. Exit
+Enter your choice (1-3) :3
+Goodbye! Your expenses are saved.
+
+
 
 
